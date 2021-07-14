@@ -5,6 +5,7 @@ body {
     margin: 0 auto;
     padding: 0 16px;
     background-image: url('/img/c.jpg');
+    background-repeat: no-repeat;
     
     display: flex;
     flex-direction: column;
