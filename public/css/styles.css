@@ -4,7 +4,7 @@ body {
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
-    background-image: url('/img/c.jpg');
+    background-image: url('/img/c1.jpg');
     
     display: flex;
     flex-direction: column;
