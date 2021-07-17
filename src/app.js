@@ -35,7 +35,7 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        helpText: 'This website helps you to fetch real-time weather updates based on api integration call made for particular Location all over the world!.',
+        helpText: 'This website helps you to fetch real-time weather updates based on Api integration call which receives the location from the user converts it into corresponding latitude and longitude and fetches the weather updates for Location all over the world!',
         title: 'Help',
         name: 'Sumit Chougule'
     })

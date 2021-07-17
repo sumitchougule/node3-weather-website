@@ -9,7 +9,8 @@ const forecast = (latitude, longitude, callback) => {
         } else if (body.error) {
             callback('Unable to find location', undefined)
         } else {
-            callback(undefined, body.current.weather_descriptions + ' The temperature is ' + body.current.temperature + ' degree and chance of rain ' + body.current.precip + '%.')
+            callback(undefined, body.current.weather_descriptions + ' The temperature is ' + body.current.temperature + ' degree and Humidity is ' + body.current.humidity + '. The latitude of location is '+latitude+' degree and longitude is '+longitude+' degree.')
+
         }
     })
 }
